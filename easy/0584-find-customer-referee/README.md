@@ -62,9 +62,9 @@ Output:
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 738 ms (beats 7.87%)  
+**Runtime:** 595 ms (beats 23.00%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-21T11:27:04.802Z  
+**Submitted:** 2026-10-21T22:15:01.299Z  
 
 ```sql
 SELECT name 

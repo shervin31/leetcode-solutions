@@ -60,17 +60,16 @@ So the result is customer_number 3.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 554 ms (beats 28.85%)  
+**Runtime:** 549 ms (beats 30.91%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-21T11:34:01.839Z  
+**Submitted:** 2026-10-22T01:34:15.880Z  
 
 ```sql
-SELECT customer_number
-From Orders 
-GROUP BY customer_number
-ORDER BY COUNT(order_number) DESC
-LIMIT 1 
-
+SELECT customer_number 
+FROM Orders  
+GROUP BY customer_number 
+ORDER BY COUNT(*) DESC 
+limit 1
 ```
 
 ---

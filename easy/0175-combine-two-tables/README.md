@@ -81,16 +81,15 @@ addressId = 1 contains information about the address of personId = 2.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 493 ms (beats 26.10%)  
+**Runtime:** 499 ms (beats 24.29%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-22T00:44:00.858Z  
+**Submitted:** 2026-10-22T01:14:45.198Z  
 
 ```sql
-SELECT p.firstName, p.lastName, a.city, a.state
+SELECT p.firstName, p.lastName, a.city, a.state 
 FROM Person p 
 LEFT JOIN Address a 
-    ON  p.personId = a.personId 
-
+    ON p.personId = a.personId
 ```
 
 ---

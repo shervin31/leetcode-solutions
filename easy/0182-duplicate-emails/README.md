@@ -53,14 +53,14 @@ Explanation: a@b.com is repeated two times.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 440 ms (beats 30.06%)  
+**Runtime:** 423 ms (beats 38.97%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-10-22T01:08:47.797Z  
+**Submitted:** 2026-10-22T01:09:20.143Z  
 
 ```sql
 SELECT p.email AS Email 
 FROM Person p 
-GROUP BY p.email 
+GROUP BY email 
 HAVING COUNT(email) > 1 
 ```
 

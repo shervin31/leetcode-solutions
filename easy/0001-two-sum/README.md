@@ -59,8 +59,8 @@ The sum of `nums[0]` and `nums[1]` is `3 + 3 = 6`, which equals the target. Ther
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 12.9 MB (beats 81.53%)  
-**Submitted:** 2026-10-22T01:45:26.413Z  
+**Memory:** 12.9 MB (beats 93.66%)  
+**Submitted:** 2026-10-22T01:46:19.807Z  
 
 ```py
 class Solution(object):
